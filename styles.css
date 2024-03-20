@@ -422,6 +422,7 @@ justify-content: space-around;
 }
 
 .servimg1 p{
+    display:'none';
     font-size: 18px;
     line-height: 20px;
     width:0%;
@@ -447,7 +448,8 @@ justify-content: space-around;
     height: 100%;
     color: white;
     font-size: larger;
-    overflow:'auto'
+    overflow:'auto';
+    display:'block';
 }
 
 
