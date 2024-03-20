@@ -357,7 +357,7 @@ cursor: pointer;
 }
 
 .experience p{
-    font-size: 3vh;
+    font-size: 16px;
     padding:12px;
     justify-content: space-around;
     /* position: absolute; */
@@ -365,6 +365,7 @@ cursor: pointer;
 }
 .experience-detail{
     display: none;
+     word-wrap: break-word;
 }
 
 
