@@ -421,7 +421,7 @@ justify-content: space-around;
     
 }
 
-.servimg1  p{
+.servimg1 p{
   
     font-size: 18px;
     line-height: 20px;
@@ -441,7 +441,7 @@ justify-content: space-around;
     overflow: hidden;
     transition:  height 0.5s ease-in-out;
 }
-.servimg1:hover  p {
+.servimg1:hover p {
     transform: scale(1.1);
     border: 2px solid rgb(0,0,0);
     width: 100%;
