@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Arbaj PortFolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="nav" id="nav">
+
+            <div class="left">
+                <img src="logo.png" alt="/">
+
+            </div>
+            <div class="right">
+                <ul id="navhome">
+                    <li onclick="navhome()"> <a href="#nav">Home</a></li>
+                    <li onclick="navhome()"> <a href="#sectionfour">Contact</a></li>
+                    <li onclick="navhome()"><a href="#sectionthree">Service</a></li>
+                    <li onclick="navhome()"><a href="#sectiontwo">About Us</a></li>
+                </ul>
+            </div>
+            <div class="hamburger" id="hamburger1">
+                <button onclick="hamburger()"> <img src="https://cdn-icons-png.flaticon.com/128/10080/10080458.png"
+                        alt=""> </button>
+            </div>
+            <div class="hamcross" id="hamcross1">
+                <button onclick="hamcross()"> <img
+                        src="https://img.favpng.com/12/15/4/computer-icons-royalty-free-png-favpng-PAUFdZnJYSCSMgVES6qDmSLKk.jpg"
+                        alt=""> </button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+        <!---------------------Section  First--------->
+
+        <section class="sectionfirst" id="sectionfirst">
+            <div class="leftsection">
+                Hi,<br>Name is <span class="green">Arbaj Choudhary</span><br>
+                I am now a student of
+                <span class="green">BSC-IT </span><br>
+                Third Year, I have learned
+                <br>
+                <span id="element"></span>
+            </div>
+
+            <div class="rightsection">
+                <img src="./webImage.jpg"
+                    alt="/">
+            </div>
+        </section>
+
+        <!--- About us------------------------>
+
+        <section class="sectiontwo" id="sectiontwo">
+
+            <div class="Aboutus" id="Aboutus">About Us
+
+                <div class="skill-experience">
+                    <div class="new-skill">
+                    <b onclick="show_skill()">Skill</b>
+                    <div class="line-in-about" id="line-in-about"></div>
+                    </div>
+                    <div class="new-experience">
+                    <b onclick="show_experience()">Experience</b>
+                    <div class="line-in-about-experience" id="line-in-about-experience"></div>
+                </div>
+                </div>
+                
+                <div class="info">
+                    
+                     
+                  
+                    <div class="skill" >
+                        
+                        <div class="groupskill" id="groupskill">
+                        <b>Html</b>
+                       <div class="skill-level" id="html">
+                         <div class="circle" id="html-circle"> </div>
+                         <b>95%</b>
+                       </div>
+                       <b>Css</b>
+                       <div class="skill-level" id="css">
+                        <div class="circle" id="css-circle"></div>
+                        <b>90%</b>
+                      </div>
+                      <b>JavaScript</b>
+                      <div class="skill-level" id="js">
+                        <div class="circle" id="js-circle"></div>
+                        <b>85%</b>
+                      </div>
+                      <b>Node.js</b>
+                      <div class="skill-level" id="node">
+                        <div class="circle" id="node-circle"></div>
+                        <b>75%</b>
+                      </div>
+                      <b>React.js</b>
+                      <div class="skill-level" id="react">
+                        <div class="circle" id="react-circle"></div>
+                        <b>80%</b>
+                      </div>
+                      <b>Python</b>
+                      <div class="skill-level" id="python">
+                        <div class="circle" id="python-circle"></div>
+                        <b>85%</b>
+                    
+                      </div>
+                     </div>
+                      </div>
+                      <div class="experience"  id="experience"  >
+                        
+                        <div class="experience-detail" id="experience-detail">
+                        <ul>
+                            <li><p> Developed Real-time chatting application  <br><a href="https://chatybuddy.netlify.app/"> https://chatybuddy.netlify.app/</a>
+                               </p></li>
+
+                        <li><p> Tic Tac Toe <br> <a href="arbaj887.github.io/tic-tac-toe/" > arbaj887.github.io/tic-tac-toe/</a></p></li>
+                        <li><p> News-Portal website <br><a href="https://newsportalsite.netlify.app/ ">https://newsportalsite.netlify.app/</a></p></li>
+                        <li><p>Customer Management<br><a href="https://customermanagement.netlify.app/">https://customermanagement.netlify.app/</a></p></li>
+                        <li><p>Budget Planner Form <br><a href="https://budgetplannersite.netlify.app/">https://budgetplannersite.netlify.app/</a></p></li>    
+                        <li><p>React.js MCQ <br><a href="https://mcqgamereact.netlify.app/">https://mcqgamereact.netlify.app/</a></p></li> 
+                    </ul>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            </div>
+            <div class="Aboutimg">
+                <img src="./aboutImage.jpg"
+                    alt="Image not render">
+            </div>
+
+
+        </section>
+        <!---------------------Service------------------->
+
+        <section class="sectionthree" id="sectionthree">
+            <div class="service">Service</div>
+            <div class="servimg">
+
+                <div class="servimg1">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAYzqNR3BYFkYFPL0a8ycwRMfpIOs8OhUmxcuYGkrRkTp-qoXiE1Pux8n_1_MIfNXPxnA&usqp=CAU">
+                        <ul>
+                            
+                            <li>Web Development</li>
+                            <li>Web Design</li>
+                            <li>User Interface</li>
+                            <li>MERN stack</li>
+                        </ul>
+                </div>
+                <div class="servimg1">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh90Tq9-CebGvnFPoqP9deKe-EudfYteKY0dl97dVC3aA8Ut30y7MFeyxTeb2zXFV3lFc&usqp=CAU">
+                        <ul>
+                            <li>Web Development</li>
+                            <li>Web Design</li>
+                            <li>User Interface</li>
+                            <li>MERN stack</li>
+                        </ul>              
+                     </div>
+                <div class="servimg1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe5NlxCVMQcBNDRcttW08sbc0I5tTSZeMo8oEgkYUWzY87gMfaEN9VouuWWj8gDcHnGO4&usqp=CAU" >
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Web Design</li>
+                        <li>User Interface</li>
+                        <li>MERN stack</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+
+        </section>
+        <!---------------------------Contact---------------------->
+
+        <section class="sectionfour" id="sectionfour">
+            <div class="contact">Contact</div>
+            <div class="content">
+
+                <div class="leftcontact">
+                    <div class="emaillogo">
+                        <img src="https://cdn-icons-png.flaticon.com/128/732/732200.png">---<p>
+                            choudharyarbaj@001gmail.com </p>
+                    </div>
+                    <div class="leftcontactimg">
+                        <!-- <a href="https://www.facebook.com"><img
+                                src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt=""></a> -->
+                        <!-- <a href="https://www.instagram.com"><img
+                                src="https://cdn-icons-png.flaticon.com/128/733/733558.png" alt=""></a> -->
+                        <a href="https://www.linkedin.com/in/arbaj-ali-choudhary-189619301"><img
+                                src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt=""></a>
+                        <a href="https://github.com/Arbaj887?tab=repositories" ><img style="background-color: white; border-radius: 2px;" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""></a>
+                        <!-- <a href="https://twitter.com"><img src="https://cdn-icons-png.flaticon.com/128/1409/1409937.png"
+                                alt=""></a> -->
+                    </div>
+                    <!-- <div class="playstore">
+                        <img src="https://cdn-icons-png.flaticon.com/128/300/300218.png" alt="page relode">
+                    </div> -->
+                    
+                </div>
+
+                <div class="form">
+                    <form name="submit-to-google-sheet" action="jsv.html" method="post">
+                        <input type="text" placeholder="Enter Name" id="Name" name="Name" >
+                        <input type="email" placeholder="Enter Email" id="Email" name="Email" required >
+                        <textarea  rows="6" placeholder="Description" id="Description" name="Description"></textarea>
+
+                        <input type="submit"  class="btn" onclick="submit()" value="Submit" >
+                        
+                    </form>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <!--------------------Footer---------------------->
+    <footer>
+        <div class="divfooter">copyright &#169</div>
+    </footer>
+<!-- -------------------------------------------Java Script----------------------------------->
+ 
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+          
+       
+        let typed = new Typed('#element', {
+            strings: ['C, C++. ', 'Python.', 'Java.', 'React.','Node.js.', 'MongoDB.'],
+            typeSpeed: 110,
+        });
+    
+
+     
+    
+
+        function hamburger() {
+            let v1 = document.getElementById("navhome")
+            v1.classList.add("show")
+
+            let v4 = document.getElementById("hamburger1")
+            v4.classList.add("removehamburger")
+            let v3 = document.getElementById("hamcross1")
+            v3.classList.add("showhamcross")
+            
+            
+        }
+
+
+        function navhome() {
+            let v2 = document.getElementById("navhome")
+            v2.classList.remove("show")
+            
+
+            hamcross()
+        }
+
+
+        function hamcross() {
+            let v1 = document.getElementById("navhome")
+            v1.classList.remove("show")
+
+            let v4 = document.getElementById("hamburger1")
+            v4.classList.remove("removehamburger")
+            let v3 = document.getElementById("hamcross1")
+            v3.classList.remove("showhamcross")
+            
+        }
+/*-----------------------show Skill------------*/
+        function show_skill(){
+        
+            let v2=document.getElementById('experience-detail').style.display='none';
+          let v1=document.getElementById('groupskill').style.display='block';
+          let v3 = document.getElementById('line-in-about').classList.remove('line-in-about-width');
+          let v4= document.getElementById('line-in-about-experience').classList.remove('line-in-about-experience-width')
+            
+        //   document.getElementById('Aboutus').style.height='110vh';
+
+
+         }
+        function show_experience(){
+            let v1=document.getElementById('experience-detail').style.display='block';
+          
+          let v2=document.getElementById('groupskill').style.display='none';
+          let v3 = document.getElementById('line-in-about').classList.add('line-in-about-width');
+          let v4= document.getElementById('line-in-about-experience').classList.add('line-in-about-experience-width');
+          
+          
+
+          
+        }
+
+</script>
+<script>
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz5_3rUdCsoWyJfnkirboWUOxYnSHyb5vosnPfnQNz9nW9Qy26_0STuuLOYmHt0P86zbA/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
